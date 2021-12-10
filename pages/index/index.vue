@@ -6,6 +6,7 @@
 			<button type="default" @click="goProgressBar">progress bar</button>
 			<button type="default" @click="swiperCard">swiper-card</button>
 			<button type="default" @click="circularCard">circular-card</button>
+			<button type="default" @click="bubbleChart">bubble-chart</button>
 		</view>
 	</view>
 </template>
@@ -36,6 +37,11 @@
       circularCard() {
 				uni.navigateTo({
 					url: '/pages/circular-card/index',
+				});
+      },
+      bubbleChart() {
+				uni.navigateTo({
+					url: '/pages/bubble-chart/index',
 				});
 			}
 		},

@@ -38,6 +38,14 @@
 				"navigationBarBackgroundColor": "#459fff",
 				"navigationBarTextStyle": "white"
 			}
+    },
+    {
+			"path": "pages/bubble-chart/index",
+			"style": {
+				"navigationBarTitleText": "bubble-chart",
+				"navigationBarBackgroundColor": "#459fff",
+				"navigationBarTextStyle": "white"
+			}
 		}
 	],
 	"globalStyle": {
