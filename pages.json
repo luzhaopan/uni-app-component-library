@@ -22,6 +22,14 @@
 				"navigationBarBackgroundColor": "#459fff",
 				"navigationBarTextStyle": "white"
 			}
+    },
+    {
+			"path": "pages/swiper-card/index",
+			"style": {
+				"navigationBarTitleText": "swiper-card",
+				"navigationBarBackgroundColor": "#459fff",
+				"navigationBarTextStyle": "white"
+			}
 		}
 	],
 	"globalStyle": {

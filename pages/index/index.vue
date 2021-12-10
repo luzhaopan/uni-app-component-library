@@ -4,6 +4,7 @@
 		<view class="">
 			<button type="default" @click="goPie">RingPie</button>
 			<button type="default" @click="goProgressBar">progress bar</button>
+			<button type="default" @click="swiperCard">swiper-card</button>
 		</view>
 	</view>
 </template>
@@ -24,6 +25,11 @@
       goProgressBar() {
 				uni.navigateTo({
 					url: '/pages/progress-bar/index',
+				});
+      },
+       swiperCard() {
+				uni.navigateTo({
+					url: '/pages/swiper-card/index',
 				});
 			}
 		},
