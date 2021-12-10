@@ -1,0 +1,20 @@
+{
+  "name": "uni-app-component-library",
+  "version": "1.0.0",
+  "description": "uni-app开发项目的一些定制化组件收集",
+  "main": "main.js",
+  "dependencies": {
+    "echarts": "^5.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luzhaopan/uni-app-component-library.git"
+  },
+  "keywords": [
+    "uni-app-component-library"
+  ]
+}
