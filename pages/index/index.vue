@@ -5,6 +5,7 @@
 			<button type="default" @click="goPie">RingPie</button>
 			<button type="default" @click="goProgressBar">progress bar</button>
 			<button type="default" @click="swiperCard">swiper-card</button>
+			<button type="default" @click="circularCard">circular-card</button>
 		</view>
 	</view>
 </template>
@@ -27,9 +28,14 @@
 					url: '/pages/progress-bar/index',
 				});
       },
-       swiperCard() {
+      swiperCard() {
 				uni.navigateTo({
 					url: '/pages/swiper-card/index',
+				});
+      },
+      circularCard() {
+				uni.navigateTo({
+					url: '/pages/circular-card/index',
 				});
 			}
 		},
