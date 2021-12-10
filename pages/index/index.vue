@@ -3,6 +3,7 @@
 		<view class="title">component-view navigation</view>
 		<view class="">
 			<button type="default" @click="goPie">RingPie</button>
+			<button type="default" @click="goProgressBar">progress bar</button>
 		</view>
 	</view>
 </template>
@@ -19,20 +20,26 @@
 				uni.navigateTo({
 					url: '/pages/ring-pie/index',
 				});
+      },
+      goProgressBar() {
+				uni.navigateTo({
+					url: '/pages/progress-bar/index',
+				});
 			}
 		},
 	}
 </script>
 
-<style>
+<style lang="scss" scoped>
 	.container {
 		padding: 10px;
 		font-size: 14px;
 		line-height: 24px;
-	}
-	.title {
-		text-align: center;
-		font-size: 40rpx;
-		margin: 40rpx 0;
+
+		.title {
+			text-align: center;
+			font-size: 40rpx;
+			margin: 40rpx 0;
+		}
 	}
 </style>

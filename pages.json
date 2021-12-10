@@ -10,7 +10,17 @@
 		{
 			"path": "pages/ring-pie/index",
 			"style": {
-				"navigationBarTitleText": "环形饼图"
+				"navigationBarTitleText": "环形饼图",
+				"navigationBarBackgroundColor": "#459fff",
+				"navigationBarTextStyle": "white"
+			}
+    },
+    {
+			"path": "pages/progress-bar/index",
+			"style": {
+				"navigationBarTitleText": "progress bar",
+				"navigationBarBackgroundColor": "#459fff",
+				"navigationBarTextStyle": "white"
 			}
 		}
 	],
