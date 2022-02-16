@@ -46,6 +46,14 @@
 				"navigationBarBackgroundColor": "#459fff",
 				"navigationBarTextStyle": "white"
 			}
+		},
+		{
+			"path": "pages/radar-chart/index",
+			"style": {
+				"navigationBarTitleText": "radar-chart",
+				"navigationBarBackgroundColor": "#459fff",
+				"navigationBarTextStyle": "white"
+			}
 		}
 	],
 	"globalStyle": {

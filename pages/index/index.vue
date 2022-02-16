@@ -7,6 +7,7 @@
 			<button type="default" @click="swiperCard">swiper-card</button>
 			<button type="default" @click="circularCard">circular-card</button>
 			<button type="default" @click="bubbleChart">bubble-chart</button>
+			<button type="default" @click="radarChart">radar-chart</button>
 		</view>
 	</view>
 </template>
@@ -42,6 +43,11 @@
       bubbleChart() {
 				uni.navigateTo({
 					url: '/pages/bubble-chart/index',
+				});
+			},
+			radarChart() {
+				uni.navigateTo({
+					url: '/pages/radar-chart/index',
 				});
 			}
 		},
