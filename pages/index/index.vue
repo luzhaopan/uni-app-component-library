@@ -8,6 +8,7 @@
 			<button type="default" @click="circularCard">circular-card</button>
 			<button type="default" @click="bubbleChart">bubble-chart</button>
 			<button type="default" @click="radarChart">radar-chart</button>
+			<button type="default" @click="dragList">drag-list</button>
 		</view>
 	</view>
 </template>
@@ -48,6 +49,11 @@
 			radarChart() {
 				uni.navigateTo({
 					url: '/pages/radar-chart/index',
+				});
+			},
+			dragList() {
+				uni.navigateTo({
+					url: '/pages/drag-list/index',
 				});
 			}
 		},
